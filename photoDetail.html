@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/vote.css" />
+		<script src="js/zepto_1.1.3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+	</head>
+
+	<body>
+		<!--底部导航-->
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active" href="index.html">
+				<span class="mui-icon"><img src="img/home.png"/></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item" href="enroll.html">
+				<span class="mui-icon"><img src="img/entered.png"/></span>
+				<span class="mui-tab-label">报名</span>
+			</a>
+			<a class="mui-tab-item" href="search.html">
+				<span class="mui-icon"><img src="img/search.png"/></span>
+				<span class="mui-tab-label">搜索</span>
+			</a>
+			<a class="mui-tab-item" href="activeDetail.html">
+				<span class="mui-icon"><img src="img/gift.png"/></span>
+				<span class="mui-tab-label">活动详情</span>
+			</a>
+		</nav>
+		<!--内容区域-->
+		<div class="mui-content">
+			<!--顶部图片-->
+			<div class="active_img"><img src="img/active_img.png" /></div>
+			<!--统计-->
+			<div class="statistics_wrap">
+				<ul class="count_ul mui-clearfix">
+					<li>
+						<div class="count_name">参与选手</div>
+						<div class="count_num">100</div>
+					</li>
+					<li>
+						<div class="count_name">累计投票</div>
+						<div class="count_num">100</div>
+					</li>
+					<li>
+						<div class="count_name">访问量</div>
+						<div class="count_num">100</div>
+					</li>
+				</ul>
+			</div>
+			<!--活动简介-->
+			<ul class="introduce_wrap mui-table-view">
+				<li class="mui-table-view-cell mui-media">
+					<div>
+						<img class="mui-media-object mui-pull-left" src="img/heart.png">
+						<div class="mui-media-body">
+							看我长得是个小公举其实我是男孩子哦~
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<div>
+						<img class="mui-media-object mui-pull-left" src="img/airing.png">
+						<div class="mui-media-body">
+							1号-小馒头。当前第一名
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<div>
+						<img class="mui-media-object mui-pull-left" src="img/addr.png">
+						<div class="mui-media-body">
+							距离第一名差0票，后一名差0票
+						</div>
+					</div>
+				</li>
+			</ul>
+			<!--照片详情-->
+			<div class="photo_wrap">
+				<div class="photo_img"><img src="img/baby01.jpg" /></div>
+				<div class="support_wrap">
+					<div class="support_left"><img src="img/red_heart.png" />支持:</div>
+					<div class="support_right">
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+						<img src="img/head_img.png" />
+					</div>
+					<div class="more">更多<span class="mui-icon mui-icon-arrowdown"></div>
+				</div>
+				<ul class="btn_wrap">
+					<li><button class="photo_btn" id="like_btn">喜欢他投一票</button></li>
+					<li><button class="photo_btn">我也来参加</button></li>
+					<li><button class="photo_btn">点击查看更多</button></li>
+				</ul>
+			</div>
+			<!--活动介绍-->
+			<div class="countdown_wrap active_introduce bordernone">
+				<div class="cd_left"><img src="img/book.png" /></div>
+				<div class="cd_right">活动介绍</div>
+			</div>
+			<div class="ai_wrap">
+				<div class="ai_tit">非常六加一儿童摄影国际连锁</div>
+				<div class="ai_subtit">5D数字影棚龙山文创园拍摄基地</div>
+				<div class="ai_subtit">VIP:0592-5193885</div>
+				<p class="ai_p_tit">只要报名就可以免费体验拍摄活动</p>
+				<p class="ai_p">您只需要根据小编的步骤即可成功报名</p>
+				<p class="ai_p">报名步骤:</p>
+				<p class="ai_p">1、点击我要报名</p>
+				<p class="ai_p">2、填写参赛选手姓名+联系电话+上传无水印照片1张即可参与</p>
+				<p class="ai_p">3、报名参加达到50票，获得入围奖资格，前50名入围者即可获得入围奖，非常六加一客服将会与您联系并在8月24日—8月31日安排您进店体验拍摄</p>
+				<p class="ai_p">4、如有疑问或超时未与您联系请联系客服：0592-5193885</p>
+			</div>
+		</div>
+
+		<!--投票弹窗-->
+		<div class="vote_box">
+			<div class="vote_close"></div>
+			<div class="vote_content">您成功给编号1投了一票，谢谢支持</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+				mui('body').on('tap', 'a', function() {
+					window.top.location.href = this.href;
+				});
+				$(".vote_close").click(function(){
+					$(".vote_box").hide();
+				});
+				$("#like_btn").click(function(){
+					$(".vote_box").show();
+				});
+				var isopen=true;
+				$(".more").click(function(){
+					if(isopen){
+						$(this).html('收起<span class="mui-icon mui-icon-arrowup"></span>');
+						$(".support_right").addClass("mh_none");
+						isopen=false;
+					}else{
+						$(this).html('更多<span class="mui-icon mui-icon-arrowdown"></span>');
+						$(".support_right").removeClass("mh_none");
+						isopen=true;
+					}
+					
+				})
+			})
+		</script>
+	</body>
+
+</html>
